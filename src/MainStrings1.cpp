@@ -13,6 +13,7 @@ Objectives of Strings-1 Lesson:
 
 */
 #include <stdio.h>
+#include<conio.h>
 #include "FunctionHeadersStrings1.h"
 
 int main(){
@@ -26,6 +27,11 @@ int main(){
 	//StrWordsinRev
 
 	//commonWords
+	char *str1 ="      ";
+	char *str2 = "who is the bro";
+	//char expected[2][31] = { { "the" }, { "is" } };
+	char **res = commonWords(str1, str2);
+	getch();
 
 	return 0;
 }

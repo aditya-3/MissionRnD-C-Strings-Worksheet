@@ -1,6 +1,8 @@
 #include "stdafx.h"
 #include "CppUnitTest.h"
 #include "../src/commonWords.cpp"
+#include<stdio.h>
+#include<conio.h>
 
 using namespace Microsoft::VisualStudio::CppUnitTestFramework;
 
